@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBankingApp.Data\MyBankingApp.Data.csproj" />
+    <ProjectReference Include="..\MyBankingApp.Infrastructures\MyBankingApp.Infrastructures.csproj" />
+    <ProjectReference Include="..\MyBankingApp.Interfaces\MyBankingApp.Interfaces.csproj" />
+    <ProjectReference Include="..\MyBankingApp.Utilities\MyBankingApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
